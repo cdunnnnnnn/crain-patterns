@@ -119,6 +119,9 @@
 <loc>http://example.com/about/</loc>
 </url>
 <url>
+<loc>http://example.com/brands/</loc>
+</url>
+<url>
 <loc>http://example.com/</loc>
 </url>
 </urlset>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.5">Jekyll</generator><link href="http://example.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://example.com/" rel="alternate" type="text/html" /><updated>2016-05-20T09:08:58-04:00</updated><id>http://example.com/</id><title>Jekyllized Patterns</title><subtitle>Styleguide &amp; Pattern Library</subtitle><author><name>Crain</name></author><entry><title>vertical lists</title><link href="http://example.com/vertical-lists/" rel="alternate" type="text/html" title="vertical lists" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/vertical-lists</id><content type="html" xml:base="http://example.com/vertical-lists/">&lt;p&gt;This is some text about the Vertical Lists pattern.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.5">Jekyll</generator><link href="http://example.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://example.com/" rel="alternate" type="text/html" /><updated>2016-05-23T12:33:06-04:00</updated><id>http://example.com/</id><title>Jekyllized Patterns</title><subtitle>Styleguide &amp; Pattern Library</subtitle><author><name>Crain</name></author><entry><title>vertical lists</title><link href="http://example.com/vertical-lists/" rel="alternate" type="text/html" title="vertical lists" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/vertical-lists</id><content type="html" xml:base="http://example.com/vertical-lists/">&lt;p&gt;This is some text about the Vertical Lists pattern.&lt;/p&gt;
 
 &lt;ul class=&quot;bullet-list&quot;&gt;
   &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/li&gt;
@@ -89,7 +89,211 @@ This will also be italic
 This text will be bold
 This will also be bold
 
-You can combine them</summary></entry><entry><title>tool tips</title><link href="http://example.com/tooltips/" rel="alternate" type="text/html" title="tool tips" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tooltips</id><content type="html" xml:base="http://example.com/tooltips/">&lt;p&gt;This is some text about the Tool Tips pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Tool Tips pattern.</summary></entry><entry><title>toolbars</title><link href="http://example.com/toolbars/" rel="alternate" type="text/html" title="toolbars" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/toolbars</id><content type="html" xml:base="http://example.com/toolbars/">&lt;p&gt;This is some text about the Toolbars pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Toolbars pattern.</summary></entry><entry><title>tokens</title><link href="http://example.com/tokens/" rel="alternate" type="text/html" title="tokens" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tokens</id><content type="html" xml:base="http://example.com/tokens/">&lt;p&gt;This is some text about the Tokens pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Tokens pattern.</summary></entry><entry><title>tabs</title><link href="http://example.com/tabs/" rel="alternate" type="text/html" title="tabs" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tabs</id><content type="html" xml:base="http://example.com/tabs/">&lt;p&gt;This is some text about the Tabs pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Tabs pattern.</summary></entry><entry><title>tables</title><link href="http://example.com/tables/" rel="alternate" type="text/html" title="tables" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tables</id><content type="html" xml:base="http://example.com/tables/">&lt;p&gt;This is some text about the Tables pattern.&lt;/p&gt;
+You can combine them</summary></entry><entry><title>tool tips</title><link href="http://example.com/tooltips/" rel="alternate" type="text/html" title="tool tips" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tooltips</id><content type="html" xml:base="http://example.com/tooltips/">&lt;p&gt;This is some text about the Tool Tips pattern.&lt;/p&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot; data-tooltip=&quot;I&#39;m the tooltip text.&quot;&gt;I&amp;rsquo;m a link with a tooltip.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;btn btn-primary&quot; data-tooltip=&quot;I&#39;m the tooltip text.&quot;&gt;I&amp;rsquo;m a button with a tooltip&lt;/button&gt;&lt;/p&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; data-tooltip=&amp;quot;I&amp;#39;m the tooltip text.&amp;quot;&amp;gt;I&amp;#39;m a link with a tooltip.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;button class=&amp;quot;btn btn-primary&amp;quot; data-tooltip=&amp;quot;I&amp;#39;m the tooltip text.&amp;quot;&amp;gt;I&amp;#39;m a button with a tooltip&amp;lt;/button&amp;gt;&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Tool Tips pattern.
+
+Example
+
+I&amp;rsquo;m a link with a tooltip.
+
+I&amp;rsquo;m a button with a tooltip
+
+HTML
+&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; data-tooltip=&amp;quot;I&amp;#39;m the tooltip text.&amp;quot;&amp;gt;I&amp;#39;m a link with a tooltip.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;button class=&amp;quot;btn btn-primary&amp;quot; data-tooltip=&amp;quot;I&amp;#39;m the tooltip text.&amp;quot;&amp;gt;I&amp;#39;m a button with a tooltip&amp;lt;/button&amp;gt;&amp;lt;/p&amp;gt;</summary></entry><entry><title>toolbars</title><link href="http://example.com/toolbars/" rel="alternate" type="text/html" title="toolbars" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/toolbars</id><content type="html" xml:base="http://example.com/toolbars/">&lt;p&gt;This is some text about the Toolbars pattern.&lt;/p&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;ul class=&quot;action-bar clearfix&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;#&quot; class=&quot;like&quot;&gt;
+            &lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;#&quot; class=&quot;favorite&quot;&gt;
+            &lt;i class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;#&quot; class=&quot;comment&quot;&gt;
+            &lt;i class=&quot;fa fa-comment&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;#&quot; class=&quot;share&quot;&gt;
+            &lt;i class=&quot;fa fa-share-alt&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;ul class=&amp;quot;action-bar clearfix&amp;quot;&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;like&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-thumbs-up&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;favorite&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-heart&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;comment&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-comment&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;share&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-share-alt&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Toolbars pattern.
+
+Example
+
+
+    
+        
+            
+        
+    
+    
+        
+            
+        
+    
+    
+        
+            
+        
+    
+    
+        
+            
+        
+    
+
+
+HTML
+&amp;lt;ul class=&amp;quot;action-bar clearfix&amp;quot;&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;like&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-thumbs-up&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;favorite&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-heart&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;comment&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-comment&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;#&amp;quot; class=&amp;quot;share&amp;quot;&amp;gt;
+            &amp;lt;i class=&amp;quot;fa fa-share-alt&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+        &amp;lt;/a&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</summary></entry><entry><title>tokens</title><link href="http://example.com/tokens/" rel="alternate" type="text/html" title="tokens" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tokens</id><content type="html" xml:base="http://example.com/tokens/">&lt;p&gt;This is some text about the Tokens pattern.&lt;/p&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Inbox &lt;span class=&quot;badge&quot;&gt;42&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;btn btn-secondary&quot; type=&quot;button&quot;&gt;
+  Messages &lt;span class=&quot;badge&quot;&gt;4&lt;/span&gt;
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Inbox &amp;lt;span class=&amp;quot;badge&amp;quot;&amp;gt;42&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+
+&amp;lt;button class=&amp;quot;btn btn-secondary&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;
+  Messages &amp;lt;span class=&amp;quot;badge&amp;quot;&amp;gt;4&amp;lt;/span&amp;gt;
+&amp;lt;/button&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Tokens pattern.
+
+Example
+
+Inbox 42
+
+
+  Messages 4
+
+
+HTML
+&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Inbox &amp;lt;span class=&amp;quot;badge&amp;quot;&amp;gt;42&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+
+&amp;lt;button class=&amp;quot;btn btn-secondary&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;
+  Messages &amp;lt;span class=&amp;quot;badge&amp;quot;&amp;gt;4&amp;lt;/span&amp;gt;
+&amp;lt;/button&amp;gt;</summary></entry><entry><title>tabs</title><link href="http://example.com/tabs/" rel="alternate" type="text/html" title="tabs" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tabs</id><content type="html" xml:base="http://example.com/tabs/">&lt;p&gt;This is some text about the Tabs pattern.&lt;/p&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;div class=&quot;tab-block&quot; id=&quot;tab-block&quot;&gt;
+  &lt;ul class=&quot;tab-mnu&quot;&gt;
+    &lt;li class=&quot;active&quot;&gt;&lt;span&gt;Wordpress&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Maecenas&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div class=&quot;tab-cont&quot;&gt;
+    &lt;div class=&quot;tab-pane&quot; style=&quot;display:block&quot;&gt;&lt;p&gt;I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;tab-pane&quot;&gt;&lt;p&gt;Maecenas ut hendrerit turpis. Ut eget porttitor erat. Praesent finibus, arcu sollicitudin lobortis dictum&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;tab-block&amp;quot; id=&amp;quot;tab-block&amp;quot;&amp;gt;
+  &amp;lt;ul class=&amp;quot;tab-mnu&amp;quot;&amp;gt;
+    &amp;lt;li class=&amp;quot;active&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Wordpress&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Maecenas&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;div class=&amp;quot;tab-cont&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;tab-pane&amp;quot;&amp;gt;&amp;lt;p&amp;gt;I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;div class=&amp;quot;tab-pane&amp;quot;&amp;gt;&amp;lt;p&amp;gt;Maecenas ut hendrerit turpis. Ut eget porttitor erat. Praesent finibus, arcu sollicitudin lobortis dictum&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Tabs pattern.
+
+Example
+
+
+  
+    Wordpress
+    Maecenas
+  
+  
+    I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+    Maecenas ut hendrerit turpis. Ut eget porttitor erat. Praesent finibus, arcu sollicitudin lobortis dictum
+  
+
+
+HTML
+&amp;lt;div class=&amp;quot;tab-block&amp;quot; id=&amp;quot;tab-block&amp;quot;&amp;gt;
+  &amp;lt;ul class=&amp;quot;tab-mnu&amp;quot;&amp;gt;
+    &amp;lt;li class=&amp;quot;active&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Wordpress&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot;&amp;gt;Maecenas&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;div class=&amp;quot;tab-cont&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;tab-pane&amp;quot;&amp;gt;&amp;lt;p&amp;gt;I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;div class=&amp;quot;tab-pane&amp;quot;&amp;gt;&amp;lt;p&amp;gt;Maecenas ut hendrerit turpis. Ut eget porttitor erat. Praesent finibus, arcu sollicitudin lobortis dictum&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;</summary></entry><entry><title>tables</title><link href="http://example.com/tables/" rel="alternate" type="text/html" title="tables" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/tables</id><content type="html" xml:base="http://example.com/tables/">&lt;p&gt;This is some text about the Tables pattern.&lt;/p&gt;
 
 &lt;table&gt;&lt;thead&gt;
 &lt;tr&gt;
@@ -162,4 +366,131 @@ HTML
       &amp;lt;td&amp;gt;Content in the second column&amp;lt;/td&amp;gt;
     &amp;lt;/tr&amp;gt;
   &amp;lt;/tbody&amp;gt;
-&amp;lt;/table&amp;gt;</summary></entry><entry><title>switches</title><link href="http://example.com/switches/" rel="alternate" type="text/html" title="switches" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/switches</id><content type="html" xml:base="http://example.com/switches/">&lt;p&gt;This is some text about the Switches pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Switches pattern.</summary></entry><entry><title>sliders</title><link href="http://example.com/sliders/" rel="alternate" type="text/html" title="sliders" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/sliders</id><content type="html" xml:base="http://example.com/sliders/">&lt;p&gt;This is some text about the Sliders pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Sliders pattern.</summary></entry><entry><title>radio buttons</title><link href="http://example.com/radio-buttons/" rel="alternate" type="text/html" title="radio buttons" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/radio-buttons</id><content type="html" xml:base="http://example.com/radio-buttons/">&lt;p&gt;This is some text about the Radio Buttons pattern.&lt;/p&gt;</content><author><name>Crain</name></author><summary>This is some text about the Radio Buttons pattern.</summary></entry></feed>
+&amp;lt;/table&amp;gt;</summary></entry><entry><title>switches</title><link href="http://example.com/switches/" rel="alternate" type="text/html" title="switches" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/switches</id><content type="html" xml:base="http://example.com/switches/">&lt;p&gt;This is some text about the Switches pattern.&lt;/p&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;div class=&quot;switch-box&quot;&gt;
+  &lt;input id=&quot;switch-me&quot; type=&quot;checkbox&quot;&gt;
+  &lt;label for=&quot;switch-me&quot; class=&quot;option&quot;&gt;
+    &lt;span class=&quot;active-state&quot;&gt;ON&lt;/span&gt;
+    &lt;i class=&quot;icon&quot;&gt;&lt;/i&gt;
+    &lt;span class=&quot;inactive-state&quot;&gt;OFF&lt;/span&gt;
+  &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;switch-box&amp;quot;&amp;gt;
+  &amp;lt;input id=&amp;quot;switch-me&amp;quot; type=&amp;quot;checkbox&amp;quot;&amp;gt;
+  &amp;lt;label for=&amp;quot;switch-me&amp;quot; class=&amp;quot;option&amp;quot;&amp;gt;
+    &amp;lt;span class=&amp;quot;active-state&amp;quot;&amp;gt;ON&amp;lt;/span&amp;gt;
+    &amp;lt;i class=&amp;quot;icon&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+    &amp;lt;span class=&amp;quot;inactive-state&amp;quot;&amp;gt;OFF&amp;lt;/span&amp;gt;
+  &amp;lt;/label&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Switches pattern.
+
+Example
+
+
+  
+  
+    ON
+    
+    OFF
+  
+
+
+HTML
+&amp;lt;div class=&amp;quot;switch-box&amp;quot;&amp;gt;
+  &amp;lt;input id=&amp;quot;switch-me&amp;quot; type=&amp;quot;checkbox&amp;quot;&amp;gt;
+  &amp;lt;label for=&amp;quot;switch-me&amp;quot; class=&amp;quot;option&amp;quot;&amp;gt;
+    &amp;lt;span class=&amp;quot;active-state&amp;quot;&amp;gt;ON&amp;lt;/span&amp;gt;
+    &amp;lt;i class=&amp;quot;icon&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+    &amp;lt;span class=&amp;quot;inactive-state&amp;quot;&amp;gt;OFF&amp;lt;/span&amp;gt;
+  &amp;lt;/label&amp;gt;
+&amp;lt;/div&amp;gt;</summary></entry><entry><title>sliders</title><link href="http://example.com/sliders/" rel="alternate" type="text/html" title="sliders" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/sliders</id><content type="html" xml:base="http://example.com/sliders/">&lt;p&gt;This is some text about the Sliders pattern.&lt;/p&gt;
+
+&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://bxslider.com/lib/jquery.bxslider.css&quot;&gt;
+&lt;script src=&quot;http://bxslider.com/lib/jquery.bxslider.js&quot; defer&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;div class=&quot;pure-g&quot;&gt;
+  &lt;div class=&quot;pure-u-1 pure-u-md-1-2&quot;&gt;
+    &lt;ul class=&quot;bxslider&quot;&gt;
+      &lt;li&gt;&lt;img src=&quot;https://www.placecage.com/c/300/200&quot; style=&quot;width:100%&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://www.placecage.com/c/200/100&quot; style=&quot;width:100%&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://www.placecage.com/c/400/300&quot; style=&quot;width:100%&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;img src=&quot;https://www.placecage.com/c/500/400&quot; style=&quot;width:100%&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;HTML&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;ul class=&amp;quot;bxslider&amp;quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/300/200&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/200/100&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/400/300&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/450/350&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h3&gt;JS&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;// Init bxSlider
+$(&amp;#39;.bxslider&amp;#39;).bxSlider();
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Sliders pattern.
+
+
+
+
+Example
+
+
+  
+    
+      
+      
+      
+      
+    
+  
+
+
+HTML
+&amp;lt;ul class=&amp;quot;bxslider&amp;quot;&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/300/200&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/200/100&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/400/300&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;&amp;lt;img src=&amp;quot;https://www.placecage.com/c/450/350&amp;quot;&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+JS
+// Init bxSlider
+$(&amp;#39;.bxslider&amp;#39;).bxSlider();</summary></entry><entry><title>radio buttons</title><link href="http://example.com/radio-buttons/" rel="alternate" type="text/html" title="radio buttons" /><published>2016-01-01T00:00:00-05:00</published><updated>2016-01-01T00:00:00-05:00</updated><id>http://example.com/radio-buttons</id><content type="html" xml:base="http://example.com/radio-buttons/">&lt;p&gt;This is some text about the Radio Buttons pattern.&lt;/p&gt;
+
+&lt;form action=&quot;&quot; data-js=&quot;form-radio&quot;&gt;
+  &lt;input type=&quot;radio&quot; name=&quot;name&quot; value=&quot;Huey&quot;&gt;&lt;br&gt;
+  &lt;input type=&quot;radio&quot; name=&quot;name&quot; value=&quot;Dewey&quot;&gt;&lt;br&gt;
+  &lt;input type=&quot;radio&quot; name=&quot;name&quot; value=&quot;Louie&quot;&gt;&lt;br&gt;
+&lt;/form&gt;
+
+&lt;p&gt;&lt;strong class=&quot;radio-name&quot; style=&quot;display:none&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;form&amp;gt;
+  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;name&amp;quot; value=&amp;quot;Huey&amp;quot;&amp;gt;
+  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;name&amp;quot; value=&amp;quot;Dewey&amp;quot;&amp;gt;
+  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;name&amp;quot; value=&amp;quot;Louie&amp;quot;&amp;gt;
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Crain</name></author><summary>This is some text about the Radio Buttons pattern.
+
+
+  
+  
+  
+
+
+
+&amp;lt;form&amp;gt;
+  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;name&amp;quot; value=&amp;quot;Huey&amp;quot;&amp;gt;
+  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;name&amp;quot; value=&amp;quot;Dewey&amp;quot;&amp;gt;
+  &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;name&amp;quot; value=&amp;quot;Louie&amp;quot;&amp;gt;
+&amp;lt;/form&amp;gt;</summary></entry></feed>
