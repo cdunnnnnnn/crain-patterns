@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Jekyllized Patterns</title>
-  <meta name="description" content="This is some text about the Animations pattern.">
+  <meta name="description" content="This is some text about the Animations pattern.Example                                CSS@-webkit-keyframes preloaderRotate {  0% {    opacity: 1;    -webkit...">
   <link rel="canonical" href="http://example.com/animations/">
 
   <!-- Google Fonts -->
@@ -38,6 +38,7 @@
         <ul class="main-nav">
           <li class="logo"><a href="http://cdunnnnnnn.github.io/crain-patterns/"><img class="pure-img" src="http://cdunnnnnnn.github.io/crain-patterns/assets/images/logo.png" alt="Jekyllized Patterns" title="Jekyllized Patterns"></a></li>
           <li><a href="http://cdunnnnnnn.github.io/crain-patterns/about/">About</a></li>
+          <li><a href="http://cdunnnnnnn.github.io/crain-patterns/brands/">Brands</a></li>
         </ul>
         <a class="nav-toggle" data-js="nav-toggle"><span></span></a>
       </div>
@@ -71,6 +72,75 @@
   <div class="pattern-content">
     <p>This is some text about the Animations pattern.</p>
 
+<h3>Example</h3>
+
+<div class="preloader">
+    <div class="item">
+        <div class="item-child"></div>
+    </div>
+    <div class="item">
+        <div class="item-child"></div>
+    </div>
+</div>
+
+<h3>CSS</h3>
+<figure class="highlight"><pre><code class="language-css" data-lang="css">@-webkit-keyframes preloaderRotate {
+  0% {
+    opacity: 1;
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    opacity: 0.6;
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes preloaderRotate {
+  0% {
+    opacity: 1;
+    -moz-transform: rotate(0);
+  }
+  100% {
+    opacity: 0.6;
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes preloaderRotate {
+  0% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+  100% {
+    opacity: 0.6;
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes preloaderScale {
+  0% {-webkit-transform: scale(0);}
+  35% {-webkit-transform: scale(1.4);}
+  50% {-webkit-transform: scale(1);}
+  65% {-webkit-transform: scale(1.4);}
+  100% {-webkit-transform: scale(0);}
+}
+
+@-moz-keyframes preloaderScale {
+  0% {-moz-transform: scale(0);}
+  35% {-moz-transform: scale(1.4);}
+  50% {-moz-transform: scale(1);}
+  65% {-moz-transform: scale(1.4);}
+  100% {-moz-transform: scale(0);}
+}
+
+@keyframes preloaderScale {
+  0% {transform: scale(0);}
+  35% {transform: scale(1.4);}
+  50% {transform: scale(1);}
+  65% {transform: scale(1.4);}
+  100% {transform: scale(0);}
+}
+</code></pre></figure>
   </div>
 
 </article>

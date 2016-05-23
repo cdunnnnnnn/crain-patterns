@@ -121,5 +121,63 @@ $(document).ready(function () {
 });
 
 // Add pattern scripts here
+$(document).ready(function(){
+
+  // Radio Buttons
+  $('[data-js="form-radio"]').change(function(){
+    var name = $(this).find('input[type="radio"]:checked');
+    if (name.length > 0) {
+      $('.radio-name').html('<span style="font-weight:400;">Name:&nbsp;</span>' + name.val()).fadeIn(100);
+    }
+  });
+
+  // Sliders
+  $('.bxslider').bxSlider();
+
+  // Modals
+  $('.modal-open').click(function(){
+    $('.modal').fadeIn(300);
+  });
+  $('.modal-close').click(function(){
+    $('.modal').fadeOut(300);
+  });
+
+  // Numeric Steppers
+  $('.stepper .btn:first-of-type').on('click', function() {
+    var stepper = $(this).parent().parent().find('input');
+    stepper.val(parseInt(stepper.val(), 10) + 1);
+  });
+  $('.stepper .btn:last-of-type').on('click', function() {
+    var stepper = $(this).parent().parent().find('input');
+    stepper.val(parseInt(stepper.val(), 10) - 1);
+  });
+
+  // Tabs
+  var tabWrapper = $('#tab-block');
+  var tabMnu = tabWrapper.find('.tab-mnu  li');
+  var tabContent = tabWrapper.find('.tab-cont > .tab-pane');
+
+  tabContent.not(':first-child').hide();
+
+  tabMnu.each(function(i){
+    $(this).attr('data-tab','tab'+i);
+  });
+  tabContent.each(function(i){
+    $(this).attr('data-tab','tab'+i);
+  });
+
+  tabMnu.click(function(){
+    var tabData = $(this).data('tab');
+    tabWrapper.find(tabContent).hide();
+    tabWrapper.find(tabContent).filter('[data-tab='+tabData+']').show();
+  });
+
+  $('.tab-mnu > li').click(function(){
+    var before = $('.tab-mnu li.active');
+    before.removeClass('active');
+    $(this).addClass('active');
+  });
+
+});
 
 //# sourceMappingURL=index.js.map
